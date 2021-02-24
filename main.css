@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* Global styles */
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-string: inherit;
+}
+
+html {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	color: rgb(255, 255, 255);
+	background: #56638A;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/* header */
+
+header {
+		width: 100%;
+		height: 5rem;
+		top: 0;
+		left: 0;
+		z-index: 1;
+}
+
+.container {
+	width: 100%;
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+.profile-pic {
+	height: 9rem;
+	width: auto;
+	border-radius: 50%;
+	display: block;
+	margin: 1.5rem 0;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+	border-bottom: 2px solid rgba(255, 255, 0.2);
+}
+
+.line1 {
+	width: 15px;
+	height: 3px;
+	margin: 5px 0;
+	background: linear-gradient (
+		135deg,
+		rgba(249, 105, 14, 1) 0%,
+		rgb(255, 255, 255) 100%
+	);
+}
+
+.line2 {
+	width: 30px;
+	height: 3px;
+		background: linear-gradient (
+		125deg,
+		rgba(249, 105, 14, 1) 0%,
+		rgb(255, 255, 255) 100%
+	);
+}
+
+.line3 {
+	width: 15px;
+	height: 3px;
+	margin: 5px 0;
+	margin-left: 15px;
+	background: linear-gradient (
+		125deg,
+		rgba(249, 105, 14, 1) 0%,
+		rgb(255, 255, 255) 100%
+	);
+}
