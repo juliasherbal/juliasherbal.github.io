@@ -63,13 +63,13 @@ header {
 	margin: 1.5rem 0;
 }
 
-.nav {
+nav {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem 0;
-	border-bottom: 2px solid rgba(255, 255, 0.2);
+	border-bottom: 2px solid #CBC5EA;
 }
 
 .line1 {
