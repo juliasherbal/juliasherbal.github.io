@@ -4,5 +4,5 @@
 	selectElement(".nav-list").classList.toggle("active");
 	selectElement(".side-menu-icon").classList.toggle("toggle");
 	
-	navLinks.forEach(link, index) =>
+	
  });
