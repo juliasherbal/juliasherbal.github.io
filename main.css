@@ -218,8 +218,26 @@ nav {
 
 /* About */
 
+.about-img .container {
+	display: flex;
+	align-items: center;
+}
+
+.about-img {
+	margin: auto;
+	margin-top: 40px;
+}
+
+.about-img img {
+	height: 20rem;
+	width: auto;
+	border-radius:50%;
+	margin: 2rem;
+	box-shadow: 10px 10px 0 3px #483A58;
+}
+
 .about {
-	width: 100%;
+	width: 50%;
 	min-height: 100vh;
 	max-width: 70rem;
 	margin: auto;
@@ -228,15 +246,6 @@ nav {
 .about .container{
 	display: flex;
 	align-items: center;
-	min-height: 80vh;
-}
-
-.about-img img {
-	height: 12rem;
-	width: auto;
-	border-radius:50%;
-	margin: 2rem;
-	box-shadow: 10px 10px 0 3px #483A58;
 }
 
 .about-text {
@@ -250,7 +259,6 @@ nav {
 	font-weight: 800;
 	font-size: 3rem;
 	color: #81F7E5;
-	
 }
 
 .about-text h3 {
