@@ -14,7 +14,6 @@ html{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	box-sizing: border-box;
-	scroll-behavior: smooth;
 	color: rgb(255, 255, 255);
 	background: #56638A;
 }
@@ -238,9 +237,9 @@ nav {
 
 .about {
 	width: 50%;
-	min-height: 100vh;
-	max-width: 70rem;
+	min-height: 60vh;
 	margin: auto;
+	border-bottom: 2px solid #CBC5EA;
 }
 
 .about .container{
@@ -255,7 +254,7 @@ nav {
 }
 
 .about-text h2 {
-	letter-spacing: 1rem;
+	letter-spacing: .9rem;
 	font-weight: 800;
 	font-size: 3rem;
 	color: #81F7E5;
@@ -263,6 +262,32 @@ nav {
 
 .about-text h3 {
 	font-weight: 100;
-	font-size: 1.5rem;
-	
+	font-size: 1.5rem;	
+}
+
+
+/* Projects */
+
+.projects {
+	padding: 3rem 0;
+	min-height: 100vh;
+	max-width: 90rem;
+	margin: auto;
+}
+
+.projects-title {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.projects-title h2 {
+	letter-spacing: .9rem;
+	font-weight: 800;
+	font-size: 3rem;
+	color: #81F7E5;
+}
+
+.my-projects {
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
