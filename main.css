@@ -162,12 +162,12 @@ nav {
 }
 
 .nav-list{
-	width: 24rem;
+	width: 20rem;
 	height: 100vh;
-	background-color: #000000;
+	background-color: #483A58;
 	position: fixed;
 	top: 0;
-	right: -26rem;
+	left: -26rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -178,7 +178,7 @@ nav {
 
 
 .nav-list.active{
-	right: 0;
+	left: 0;
 }
 
 .nav-item{
@@ -198,12 +198,8 @@ nav {
 	font-size: 18px;
 }
 
-.toggle{
-	background: none;
-}
-
 .toggle .line1 {
-	transform: rotate(-45deg) translate(-5px, 6px) scaleX(2);
+	transform: rotate(-45deg) translate(0px, 15px) scaleX(2);
 }
 
 .toggle .line2 {
@@ -211,7 +207,7 @@ nav {
 }
 
 .toggle .line3 {
-	transform: rotate(45deg) translate(-5px, -6px) scaleX(2);
+	transform: rotate(45deg) translate(3px, -13px) scaleX(2);
 	margin-left: 0px;
 }
 
@@ -295,4 +291,15 @@ nav {
 
 .project-item {
 	padding: 0 50px 0 50px;
+}
+
+/* RESUME */
+
+.resume {
+	min-height: 60vh;
+	border-bottom: 2px solid #CBC5EA;
+}
+
+.resume img {
+	padding: 30px 30px 30px 30px;
 }
