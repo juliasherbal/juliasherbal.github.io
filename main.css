@@ -18,9 +18,9 @@ html{
 	background: #56638A;
 }
 
-a{
+a {
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: #81F7E5;
 }
 
 ul{
@@ -167,7 +167,7 @@ nav {
 	background-color: #483A58;
 	position: fixed;
 	top: 0;
-	left: -26rem;
+	right: -26rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -178,7 +178,7 @@ nav {
 
 
 .nav-list.active{
-	left: 0;
+	right: 0;
 }
 
 .nav-item{
@@ -290,7 +290,7 @@ nav {
 }
 
 .project-item {
-	padding: 0 50px 0 50px;
+	padding: 20px 50px 20px 50px;
 }
 
 .project-item img {
@@ -306,4 +306,11 @@ nav {
 
 .resume img {
 	padding: 30px 30px 30px 30px;
+}
+
+/* PROJECT PAGES */
+
+.project-img {
+	height: auto;
+	width: auto;
 }
