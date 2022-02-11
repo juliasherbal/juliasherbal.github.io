@@ -249,7 +249,7 @@ nav {
 	flex-basis: 0;
 }
 
-.about-text h2 {
+h2 {
 	letter-spacing: .9rem;
 	font-weight: 800;
 	font-size: 3rem;
@@ -277,16 +277,17 @@ nav {
 	margin-bottom: 5rem;
 }
 
-.projects-title h2 {
-	letter-spacing: .9rem;
-	font-weight: 800;
-	font-size: 3rem;
-	color: #81F7E5;
-}
-
 .my-projects {
 	display:grid;
 	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.project-item h2 {
+	letter-spacing: .5rem;
+	font-weight: 800;
+	font-size: 2rem;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .project-item {
