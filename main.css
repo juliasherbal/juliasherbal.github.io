@@ -314,3 +314,15 @@ nav {
 	height: auto;
 	width: auto;
 }
+
+.project {
+	width: 50%;
+	min-height: 60vh;
+	margin: auto;
+	text-align: center;
+	border-bottom: 2px solid #CBC5EA;
+}
+
+video {
+	text-align: center;
+}
