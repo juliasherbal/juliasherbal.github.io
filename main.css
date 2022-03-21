@@ -231,8 +231,17 @@ nav {
 	box-shadow: 10px 10px 0 3px #483A58;
 }
 
+.about-link {
+	padding: 20px;
+	margin-left: 30px;
+	color: #81F7E5;
+	font-size: 26px;
+	letter-spacing: 1.5px;
+}
+
+
 .about-container {
-	margin: 8rem;
+	margin: 8rem 8rem 0rem 8rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
