@@ -189,7 +189,6 @@ nav {
 .nav-link{
 	opacity: 1;
 	font-size: 16px;
-	text-transform: #uppercase;
 	color: #EEEEEE;
 	letter-spacing: 1.5px;
 }
@@ -220,21 +219,25 @@ nav {
 }
 
 .about-img {
-	margin: auto;
-	margin-top: 40px;
+	margin: 20px;
 }
 
 .about-img img {
-	height: 20rem;
+	height: 100%;
 	width: auto;
-	border-radius:50%;
+    position: relative;
+	border-radius: 10%;
 	margin: 2rem;
 	box-shadow: 10px 10px 0 3px #483A58;
 }
 
+.about-container {
+	margin: 8rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .about {
-	width: 50%;
-	min-height: 60vh;
 	margin: auto;
 	border-bottom: 2px solid #CBC5EA;
 }
@@ -242,6 +245,10 @@ nav {
 .about .container{
 	display: flex;
 	align-items: center;
+}
+
+.about p {
+	font-size: 22px;
 }
 
 .about-text {
@@ -255,11 +262,6 @@ h2 {
 	font-weight: 800;
 	font-size: 3rem;
 	color: #81F7E5;
-}
-
-.about-text h3 {
-	font-weight: 100;
-	font-size: 1.5rem;	
 }
 
 
@@ -297,17 +299,6 @@ h2 {
 
 .project-item img {
 	height: 200px;
-}
-
-/* RESUME */
-
-.resume {
-	min-height: 60vh;
-	border-bottom: 2px solid #CBC5EA;
-}
-
-.resume img {
-	padding: 30px 30px 30px 30px;
 }
 
 /* PROJECT PAGES */
