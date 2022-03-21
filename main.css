@@ -23,10 +23,6 @@ a {
 	color: #81F7E5;
 }
 
-ul{
-	list-style: none;
-}
-
 p{
 	font-size: 1.4rem;
 }
@@ -162,7 +158,7 @@ nav {
 	display: block;
 }
 
-.nav-list{
+.nav-list {
 	width: 20rem;
 	height: 100vh;
 	background-color: #483A58;
@@ -175,6 +171,7 @@ nav {
 	justify-self: start;
 	z-index: 998;
 	transition: all 650ms ease-int-out;
+	list-style: none;
 }
 
 
@@ -241,14 +238,14 @@ nav {
 
 
 .about-container {
-	margin: 8rem 8rem 0rem 8rem;
+	margin: 8rem 20rem 2rem 20rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	border-bottom: 2px solid #CBC5EA;
 }
 
 .about {
 	margin: auto;
-	border-bottom: 2px solid #CBC5EA;
 }
 
 .about .container{
@@ -273,18 +270,49 @@ h2 {
 	color: #81F7E5;
 }
 
+h3 {
+	font-weight: 300;
+	font-size: 2rem;
+	color: #81F7E5;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 18px;
+	color: #81F7E5;
+}
+
+/* Education */
+
+.education {
+	margin: 0rem 20rem 2rem 20rem;
+	border-bottom: 2px solid #CBC5EA;
+}
+
+.education-item {
+	font-size: 16px;
+	color: #EEEEEE;
+	margin: 5px;
+	letter-spacing: 1.0px;
+}
+
+.education-list {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
 
 /* Projects */
 
 .projects {
-	padding: 3rem 0;
+	padding: 2rem 0;
 	min-height: 100vh;
 	max-width: 90rem;
 	margin: auto;
 	border-bottom: 2px solid #CBC5EA;
 }
 
-.projects-title {
+.section-title {
 	text-align: center;
 	margin-bottom: 5rem;
 }
