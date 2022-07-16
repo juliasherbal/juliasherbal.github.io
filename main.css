@@ -191,44 +191,7 @@ h4 {
     font-size: 22px;
 }
 
-/* Projects */
-
-.projects {
-    padding: 2rem 0;
-    min-height: 100vh;
-    max-width: 90rem;
-    margin: auto;
-    border-bottom: 2px solid #CBC5EA;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
-.my-projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
-.project-item h2 {
-    letter-spacing: .5rem;
-    font-weight: 800;
-    font-size: 2rem;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.project-item {
-    padding: 20px 50px 20px 50px;
-}
-
-    .project-item img {
-        height: 200px;
-    }
-
 /* PROJECT PAGES */
-
 .project-img {
     height: auto;
     width: auto;
