@@ -46,14 +46,13 @@ img {
     background: #483A58;
 }
 
-.header-container h2 { /*JULIA SHERBAL*/
-    letter-spacing: 10px;
-    font-size: 35px;
-    font-weight: 800;
+h1 { /*JULIA SHERBAL*/
+    font-size: 40px;
+    letter-spacing: 3px;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s steps(20), blink 1s ease-in-out 7s infinite;
-    width: 20ch;
+    animation: typing 5s steps(15), blink 1s ease-in-out 7s infinite;
+    width: 15ch;
     margin: auto;
     margin-bottom: 10px;
     border-right: solid 3px #FFFFFF;
@@ -68,7 +67,7 @@ img {
     }
 
     100% {
-        width: 20ch;
+        width: 15ch;
     }
 }
 
