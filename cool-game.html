@@ -1,51 +1,88 @@
-﻿<!DOCTYPE html>
+﻿<DOCTYPE HTML!>
+    <html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Julia Sherbal: Cool Game</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-</head>
-<body>
-    <a href="index.html">
-        Home
-    </a>
-    <section id="project" class="project">
-        <div class="container">
-            <h2> Cool Game! </h2>
-            <img style="width:400px;" src="images/cool-game.jpg"
-                 class="project-img" />
-            <h2>Description: </h2>
-            <p>
-                A dragon has stormed the castle and taken over the kingdom!
-                Travel across different lands, fight monsters, learn new spells,
-                and level up to prepare yourself for one final battle...
-                Do you have what it takes to slay the dragon?
-            </p>
-            <br />
-            <h2>Link: </h2>
-            <p>
-                <!--link to the game on itch-->
-                <a href="https://bejules.itch.io/cool-game">Link to play Cool Game on itch.io! </a>
-            </p>
-            <br />
-            <h2>Trailer: </h2>
-            <!--game trailer-->
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/6oil6JeNZLw" title="Cool Game Trailer"></iframe>
-            <br />
-            <h2>Roles: </h2>
-            <p>
-                Programming <br />
-                Audio <br />
-                UI
-                <!--What I did / How I did it-->
-                <!--What tech I used-->
-                <!--What I learned-->
-            </p>
-            <br />
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Julia Sherbal</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <div class="header-container">
+            <a href="index.html"><h1> Julia Sherbal </h1></a>
+            <div class="header-links">
+                <p>
+                    <a href="index.html#projects">Projects</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html#about">About</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <a href="resume.html">Resume</a>
+                </p>
+            </div>
         </div>
-    </section>
-</body>
+
+        <!-- COOL GAME -->
+        <div class="projects-container">
+            <div class="project-container">
+
+                <h2>Cool Game!</h2>
+                <img class="project-banner" src="images/cool-game-banner.png" />
+                <div class="project-photos">
+                    <img src="images/cool-game-1.png" />
+                    <img src="images/cool-game-3.png" />
+                    <img src="images/cool-game-2.png" />
+                    <img src="images/cool-game-4.png" />
+                </div>
+                <div class="page-project-info">
+                    <h3>Summary</h3>
+                    <p>
+                        A dragon has stormed the castle and taken over the kingdom! The King has given you the quest to defeat the dragon and its minions who are terrorizing the lands. Travel across different lands, fight monsters, learn new spells, and level up to prepare yourself for one final battle… Do you have what it takes to slay the dragon?
+                    </p>
+                    <h3>Development Info</h3>
+                    <p>
+                        <b>Role:</b> Programming, Audio <br />
+                        <b>Tools Used:</b> Unity, Visual Studio, Github <br />
+                        <b>Duration:</b> February 2020 - April 2020 <br />
+                        <b>Team Size:</b> 3 <br />
+                        <b>Genre:</b> Shoot 'Em Up Roguelike <br />
+                        <b>Platform:</b> PC
+                    </p>
+                    <br />
+                    <iframe class="itch-embed" frameborder="0" src="https://itch.io/embed/968164?bg_color=afa1b0&amp;fg_color=000000&amp;link_color=e15afa&amp;border_color=8d7f8e" width="502" height="167"><a href="https://bejules.itch.io/cool-game">Cool Game! by bejules, Jackh1026, James McManus</a></iframe>
+                </div>
+                <div class="page-project-info">
+                    <h3>Contributions</h3>
+                    <ul>
+                        <li>
+                            Designed and programmed enemy behavior and attacks
+                        </li>
+                        <li>
+                            Programmed level progression, enemy spawning, and randomly generated environments
+                        </li>
+                        <li>
+                            Responsible for sound design
+                        </li>
+                        <li>
+                            Organized playtests and analyzed feedback
+                        </li>
+                    </ul>
+                    <h3>What I Learned</h3>
+                    <ul>
+                        <li>
+                            How to program enemies with different behaviors in Unity
+                        </li>
+                        <li>
+                            How to use player prefs and saving in Unity
+                        </li>
+                        <li>
+                            How to use the Singleton Pattern in game programming
+                        </li>
+                    </ul>
+                </div>
+                <!-- TODO: show off different enemies -->
+                <iframe width="50%" height="315" src="https://www.youtube.com/embed/6oil6JeNZLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </body>
 </html>
