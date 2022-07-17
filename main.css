@@ -54,7 +54,6 @@ img {
     white-space: nowrap;
     animation: typing 5s steps(20), blink 1s ease-in-out 7s infinite;
     width: 20ch;
-    max-width: 100%;
     margin: auto;
     margin-bottom: 10px;
     border-right: solid 3px #FFFFFF;
@@ -87,7 +86,6 @@ img {
 
 .projects-container {
     width: 85%;
-    max-width: 100%;
     padding: 20px;
     margin: 80px auto;
 }
@@ -95,7 +93,6 @@ img {
 .project-container {
     text-align: center;
     background: #483A58;
-    max-width: 100%;
 }
 
 .project-info {
