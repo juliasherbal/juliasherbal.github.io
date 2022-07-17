@@ -96,7 +96,7 @@ img {
 }
 
 .project-info {
-    width: 560px;
+    max-width: 560px;
     margin: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -105,6 +105,10 @@ img {
  .project-info p {
     font-size: 22px;
  }
+
+iframe {
+    max-width: 100%;
+}
 
 h2 {
     font-size: 40px;
@@ -123,17 +127,6 @@ h4 {
     font-size: 25px;
     letter-spacing: 0.5rem;
     color: #81F7E5;
-}
-
-.page-button {
-    background-color: #56638A;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px;
 }
 
 .page-button {
