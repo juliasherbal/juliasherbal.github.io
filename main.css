@@ -20,7 +20,6 @@ html {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 p {
@@ -80,6 +79,11 @@ h1 { /*JULIA SHERBAL*/
         border-right: solid 3px #56638A;
     }
 }
+
+.header-links a {
+    color: white;
+}
+
 
 /* PROJECTS */
 
