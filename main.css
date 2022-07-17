@@ -208,6 +208,10 @@ ul {
     font-size: 22px;
 }
 
+li {
+    margin: 15px;
+}
+
 .project-photos {
     width: 100%;
     display: flex;
