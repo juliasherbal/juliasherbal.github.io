@@ -2,11 +2,12 @@
 
 /* GLOBAL */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-        background: #999;
-        width: 100%;
-    }
+body, html {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto
 }
 
 *,
