@@ -20,6 +20,7 @@ html {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 p {
@@ -79,11 +80,6 @@ h1 { /*JULIA SHERBAL*/
         border-right: solid 3px #56638A;
     }
 }
-
-.header-links a {
-    color: white;
-}
-
 
 /* PROJECTS */
 
@@ -145,7 +141,6 @@ h4 {
 
 .page-button:hover {
     background-color: #434d6c;
-    padding: 15px 38px;
 }
 
 /* ABOUT */
@@ -160,6 +155,7 @@ h4 {
 .about-img {
     width: 48%;
     display: inline-block;
+    text-align: center;
     vertical-align: middle;
 }
 
@@ -179,6 +175,12 @@ h4 {
 
 .about-contact {
     font-size: 22px;
+    text-align: center;
+}
+
+.about-contact  a {
+    font-size: 30px;
+    margin: 10px;
     text-align: center;
 }
 
