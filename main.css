@@ -129,22 +129,6 @@ h4 {
     color: #81F7E5;
 }
 
-ul {
-    text-align: initial;
-    font-size: 22px;
-}
-
-.project-photos {
-    width: 90%;
-    display: flex;
-}
-
-.project-photos {
-    margin-top: 20px;
-    width: 25%;
-    height: 200px;
-}
-
 .page-button {
     background-color: #56638A;
     border: none;
@@ -203,4 +187,34 @@ ul {
 
 .about-container p {
     font-size: 22px;
+}
+
+/* PROJECT PAGES */
+
+.page-project-info {
+    max-width: 560px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.page-project-info p{
+    font-size: 22px;
+}
+
+ul {
+    text-align: initial;
+    font-size: 22px;
+}
+
+.project-photos {
+    width: 100%;
+    display: flex;
+}
+
+.project-photos img {
+    width: 25%;
+    margin-top: 20px;
+    height: 200px;
 }
