@@ -1,62 +1,91 @@
 ﻿<DOCTYPE HTML!>
-<html>
+    <html>
 
-	<head>
-		<meta charset='utf-8'>
-		<meta http-equiv= 'X-UA-Compatible' content='IE=edge'>
-		<title>Julia Sherbal</title>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-	</head>
-	
-	<body>
-		<a href="index.html">
-			Home
-		</a>
-		<section id="project" class="project">
-			<div class="container">
-				<h2> Echo Lost </h2>
-				<img src="images/Echo Lost.jpg"
-					 class="project-img" />
-				<h2>Description: </h2>
-				<p>
-					Koko is a small bat-like creature that cannot see
-					and is trapped in a cave. To make up for this,
-					they are able to use echolocation to understand their
-					surroundings, which is visually represented in the
-					game by platforms briefly lighting up when there is
-					sound. The player must help Koko get to the end of
-					each level to escape the cave.
-				</p>
-				<br />
-				<h2>Link: </h2>
-				<p>
-					<!--link to the game on itch-->
-					<a href="https://cmnu.itch.io/echo-lost">Link to play Echo Lost on itch.io! </a>
-				</p>
-				<br />
-				<h2>Trailer: </h2>
-				<!--game trailer-->
-				<video controls="controls" width="600" height="400" name="Echo Lost Trailer">
-					<source src="videos/Final-Trailer.mov">
-				</video>
-				<br />
-				<h2>Roles: </h2>
-				<p>
-					Programming <br />
-					Audio <br />
-					UI
-					<!--What I did / How I did it-->
-					<!--What tech I used-->
-					<!--What I learned-->
-				</p>
-				<br />
-				<h2>Global Game Jam: </h2>
-				<p>
-					Echo Lost was made during Global Game Jam 2020 from January 27th to January 31st
-					<!--GGJ Certificate-->
-				</p>
-			</div>
-		</section>
-	</body>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Julia Sherbal</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <div class="header-container">
+            <a href="index.html"><h1> Julia Sherbal </h1></a>
+            <div class="header-links">
+                <p>
+                    <a href="index.html#projects">Projects</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html#about">About</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <a href="resume.html">Resume</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- ECHO LOST -->
+        <div class="projects-container">
+            <div class="project-container">
+
+                <h2>Echo Lost</h2>
+                <img src="images/echo-lost-banner.png" />
+                <div class="project-photos">
+                    <img src="images/echo-lost-1.jpg" />
+                    <img src="images/echo-lost-2.jpg" />
+                    <img src="images/echo-lost-3.jpg" />
+                    <img src="images/echo-lost-4.png" />
+                </div>
+                <div class="project-info">
+                    <h3>Summary</h3>
+                    <p>
+                        Koko is a small bat-like creature that cannot see
+                        and is trapped in a cave. To make up for this,
+                        they are able to use echolocation to understand their
+                        surroundings, which is visually represented in the
+                        game by platforms briefly lighting up when there is
+                        sound. The player must help Koko get to the end of
+                        each level to escape the cave.
+                    </p>
+                    <h3>Development Info</h3>
+                    <p>
+                        <b>Role:</b> Programming <br />
+                        <b>Tools Used:</b> Unity, Visual Studio, Github <br />
+                        <b>Duration:</b> January 29 2021 - January 31 2021 <br />
+                        <b>Team Size:</b> 5 <br />
+                        <b>Genre:</b> Platformer <br />
+                        <b>Platform:</b> PC
+                    </p>
+                    <br />
+                    <iframe class="itch-embed" frameborder="0" src="https://itch.io/embed/904138?bg_color=000000&amp;fg_color=ffffff&amp;link_color=ababab&amp;border_color=333333" width="502" height="167"><a href="https://cmnu.itch.io/echo-lost">Echo Lost by CMNU</a></iframe>
+                </div>
+                <div class="project-info">
+                    <h3>Contributions</h3>
+                    <ul>
+                        <li>
+                            Programmed scripts in C# to create an echolocation mechanic, navigate through UI, and progress between levels
+                        </li>
+                        <li>
+                            Organized UI and menus
+                        </li>
+                        <li>
+                            Implemented level design into Unity
+                        </li>
+                        <li>
+                            Responsible for sound design
+                        </li>
+                    </ul>
+                    <h3>What I Learned</h3>
+                    <ul>
+                        <li>
+                            This was my first game in Unity, so it was a great opportunity for me to get a feel for the editor
+                        </li>
+                        <li>
+                            This was also my first game jam, and I learned how important planning with a realistic scope is. We had to priortize what we needed in the game and focus on that.
+                        </li>
+                    </ul>
+                </div>
+                <iframe width="50%" height="315" src="https://www.youtube.com/embed/iD9XTCvcKlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </body>
 </html>

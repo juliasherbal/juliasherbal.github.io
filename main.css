@@ -92,6 +92,7 @@ h1 { /*JULIA SHERBAL*/
 .project-container {
     text-align: center;
     background: #483A58;
+    padding: 10px;
 }
 
 .project-info {
@@ -126,6 +127,22 @@ h4 {
     font-size: 20px;
     letter-spacing: 0.5rem;
     color: #81F7E5;
+}
+
+ul {
+    text-align: initial;
+    font-size: 22px;
+}
+
+.project-photos {
+    width: 90%;
+    display: flex;
+}
+
+.project-photos {
+    margin-top: 20px;
+    width: 25%;
+    height: 200px;
 }
 
 .page-button {
@@ -186,22 +203,4 @@ h4 {
 
 .about-container p {
     font-size: 22px;
-}
-
-/* PROJECT PAGES */
-.project-img {
-    height: auto;
-    width: auto;
-}
-
-.project {
-    width: 50%;
-    min-height: 60vh;
-    margin: auto;
-    text-align: center;
-    border-bottom: 2px solid #CBC5EA;
-}
-
-video {
-    text-align: center;
 }
