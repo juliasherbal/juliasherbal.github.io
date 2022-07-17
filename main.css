@@ -44,6 +44,7 @@ img {
 
 .header-container {
     width: 100%;
+    max-width: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -54,19 +55,20 @@ img {
     background: #483A58;
 }
 
-.header-container h2 {  /*JULIA SHERBAL*/
-    letter-spacing: 1.0rem;
-    font-size: 3rem;
-    font-weight: 800;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 5s steps(20), blink 1s ease-in-out 7s infinite;
-    width: 20ch;
-    margin: auto;
-    margin-bottom: 10px;
-    border-right: solid 3px #FFFFFF;
-    color: #81F7E5;
-}
+    .header-container h2 { /*JULIA SHERBAL*/
+        letter-spacing: 1.0rem;
+        font-size: 3rem;
+        font-weight: 800;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 5s steps(20), blink 1s ease-in-out 7s infinite;
+        width: 20ch;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-right: solid 3px #FFFFFF;
+        color: #81F7E5;
+    }
 
 /* NAME ANIMATION */
 @keyframes typing {
@@ -94,6 +96,7 @@ img {
 
 .projects-container {
     width: 85%;
+    max-width: 100%;
     padding: 20px;
     margin: 80px auto;
 }
@@ -101,6 +104,7 @@ img {
 .project-container {
     text-align: center;
     background: #483A58;
+    max-width: 100%;
 }
 
 .project-info {
