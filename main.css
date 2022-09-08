@@ -144,6 +144,15 @@ h4 {
     background-color: #434d6c;
 }
 
+.developer-img {
+    width: 77px;
+    height: auto;
+}
+
+.app-img {
+    width: 200px;
+}
+
 /* ABOUT */
 
 .about-container {
